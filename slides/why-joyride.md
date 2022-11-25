@@ -5,14 +5,15 @@
 
 ## VS Code is great!
 
-* 24 MAU
-* 42K extensions
-* Nice, well documented, API
+* 24 million MAU
 * Very configurable
+* 41,600 extensions
+* Nice, well documented, API
 <div class="secret">
 
 ## However
 
+* Tons of Extensions != Tons of value
 * Not scriptable in user space
   * Can only be done via extensions
 </div>

@@ -5,10 +5,10 @@
 
 ## Libraries
 
+* `vscode` + extension modules
 * `joyride.core` (The extension's context and Output channel)
 * The Clojure core library, including, `clojure.set`, `clojure.edn`, `clojure.string`, `clojure.walk`, `clojure.data`, `cljs.test`, and `clojure.zip`
 * The Promesa library
-* `vscode` + extension modules
 * NPM access
 </div>
 <div>

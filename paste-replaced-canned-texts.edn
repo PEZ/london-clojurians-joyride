@@ -1,0 +1,8 @@
+[{:name "Typist clipboard"
+  :text '(defn type-clipboard
+           "Types the clipboard content at `speed`"
+           [speed]
+           (p/let [clipboard-text (vscode/env.clipboard.readText)]
+             (simulate-typing clipboard-text speed)))}
+ {:name "Nudge keybinding"
+  :text "    {\n        \"command\": \"joyride.runCode\",\n        \"args\": \"(london-examples/nudge-item!)\",\n        \"key\": \"space\",\n        \"when\": \"london:nudgeEnabled\",\n    },"}]

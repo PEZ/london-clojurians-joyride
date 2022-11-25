@@ -1,0 +1,16 @@
+{
+  "name": "london-clojurians-joyride",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "open": "^8.4.0",
+    "posthtml-parser": "^0.11.0"
+  }
+}

@@ -6,7 +6,7 @@
 
 
 (comment
-  ;; Toggle Zen Mode Status bar
+  ;; Zen Mode Status bar
   (.get (vscode/workspace.getConfiguration "zenMode") "hideStatusBar")
   (-> (vscode/workspace.getConfiguration "zenMode")
       (.update "hideStatusBar" false vscode/ConfigurationTarget.Workspace))
@@ -43,6 +43,7 @@
                          (str "https://" (+ 0.1 0.2) ".com")))]}))
   ;; Would be simpler to use the command `simpleBrowser.show` here
   ;; Except, the logging side effect
+  
   (.hide item)
 
   (.show item)
@@ -149,7 +150,7 @@
         (println "Text replaced!"))
       (p/catch (fn [e]
                  (println "Error replacing text:" e))))
-  
+
 
 
 

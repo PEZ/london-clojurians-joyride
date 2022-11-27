@@ -18,3 +18,7 @@
                             "boring")]
   (vscode/window.showInformationMessage 
    (str "You are " right-back-at-you "! 😀")))
+
+
+  ;; Toggle status bar via command
+  (vscode/commands.executeCommand "workbench.action.toggleStatusbarVisibility")

@@ -25,7 +25,6 @@
                   #(min (inc %) (dec (count slides)))
                   #(max (dec %) 0))]
      (swap! !state update :active-slide next)
-          ()
      (vscode/commands.executeCommand "markdown.showPreview"
                                      (vscode/Uri.joinPath (ws-root)
                                                           (nth slides (:active-slide @!state)))))))

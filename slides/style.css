@@ -44,7 +44,7 @@ body {
 }
 
 .row.logos > * {
-  width: 18%;
+  width: 16%;
 }
 
 .mb-0 {
@@ -57,6 +57,10 @@ body {
 
 .mt-20 {
   margin-top: 20px;
+}
+
+.mr-30 {
+  margin-top: 30px;
 }
 
 h1 {
@@ -141,4 +145,10 @@ h1 {
 
 .fz-90 {
   font-size: 90%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(13, 17, 23);
 }

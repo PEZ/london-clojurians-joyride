@@ -35,3 +35,7 @@ Peter Strömberg<br>https://github.com/PEZ
 
 </div><!--agenda-->
 </div><!--slide-->
+<div class="footer">
+
+Slides and other material: https://github.com/PEZ/london-clojurians-joyride
+</div>

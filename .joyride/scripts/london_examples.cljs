@@ -43,7 +43,7 @@
                          (str "https://" (+ 0.1 0.2) ".com")))]}))
   ;; Would be simpler to use the command `simpleBrowser.show` here
   ;; Except, the logging side effect
-  
+
   (.hide item)
 
   (.show item)
@@ -68,7 +68,7 @@
   (def !alpha (atom 240))
 
   (defn nudge-color! []
-    (let [color "#fa7f3a"
+    (let [color gold
           alpha (* 255
                    (/ (+ (js/Math.cos (* 2
                                          js/Math.PI
@@ -87,10 +87,16 @@
   (reset! !alpha 1)
   (reset! !alpha 64)
   (reset! !alpha 125)
+  (reset! !alpha 191)
   (reset! !alpha 255)
 
   (defn nudge-item! []
     (set! (.-color item) (nudge-color!)))
+
+  (nudge-item!)
+
+
+
 
   ;; Bind keyboard shortcuts to Joyride code
   ;;  {
@@ -99,6 +105,7 @@
   ;;      "key": "space",
   ;;      "when": "london:nudgeEnabled"
   ;;  },
+
 
   ;; Set some context
   (vscode/commands.executeCommand "setContext"
@@ -109,8 +116,9 @@
   ;;   "when": "calva:keybindingsEnabled && editorLangId == clojure && editorTextFocus && paredit:keyMap == strict && !editorReadOnly && !editorHasMultipleSelections && !calva:cursorInComment"
   ;; };; 
 
-  (vscode/commands.executeCommand "setContext"
-                                  "london:nudgeEnabled" false)
+  ;; Maybe not nudge via keyboard shortcut?
+
+
 
 
 
@@ -128,7 +136,7 @@
 
 
   ;; User and Workspace script
-  ;; E.g. next-slide
+  ;; E.g. typist, next-slide
 
   ;; User and Workspace activation scripts
 

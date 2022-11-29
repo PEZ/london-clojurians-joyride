@@ -16,10 +16,13 @@ Two (silly) examples:
                 (str "https://" (+ 0.1 0.2) ".com"))))))
 ;; 2
 (p/let [ws-root (-> vscode/workspace.workspaceFolders first .-uri)
-        examples (vscode/Uri.joinPath ws-root 
+        examples (vscode/Uri.joinPath ws-root
                                       ".joyride/scripts/london_examples.cljs")
         doc (vscode/workspace.openTextDocument examples)]
-  (vscode/window.showTextDocument doc))
-
+  (vscode/window.showTextDocument doc)
+  (p/create (fn [resolve _reject]
+              (js/setTimeout resolve 1500)))
+  (.revealRange vscode/window.activeTextEditor 
+                (vscode/Range. (.positionAt doc 0) (.positionAt doc 0))))
 ```
 <div>

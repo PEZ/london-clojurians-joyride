@@ -37,6 +37,9 @@
         "maxLength": 50
     },
     "editor.occurrencesHighlight": false,
-    "markdown.preview.doubleClickToSwitchToEditor": true,
+    "markdown.preview.doubleClickToSwitchToEditor": false,
     "zenMode.silentNotifications": false,
+    "screencastMode.verticalOffset": 80,
+    "editor.hover.delay": 1300,
+    "editor.quickSuggestionsDelay": 1300,
 }

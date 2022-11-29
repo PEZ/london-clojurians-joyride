@@ -27,7 +27,7 @@
                 "Is it Showtime?" "YES" "NO")
         showtime? (= "YES" answer)]
   (.update md-preview-config "doubleClickToSwitchToEditor" (not showtime?))
-  (when showtime?
+  #_(when showtime?
     (let [ws-root-uri (-> vscode/workspace.workspaceFolders first .-uri)
           doc-uri (vscode/Uri.joinPath ws-root-uri "./slides/more-examples.md")
           backup-uri (vscode/Uri.joinPath ws-root-uri "./etc/more-examples-backup.md")]
@@ -37,3 +37,5 @@
           (p/catch (fn [e]
                      (def result result)
                      (vscode/window.showErrorMessage (.-message e))))))))
+
+"Hello London Clojurians! 🥰"

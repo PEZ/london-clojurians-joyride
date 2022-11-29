@@ -5,13 +5,19 @@
 
 ## Libraries
 
-* `vscode` + extension modules
+* `"vscode"`
+* `"ext://extension-id"`
 * `joyride.core` (The extension's context and Output channel)
 * The Clojure core library, including, `clojure.set`, `clojure.edn`, `clojure.string`, `clojure.walk`, `clojure.data`, `cljs.test`, and `clojure.zip`
 * `promesa.core` (A truly sweet Promise interface)
-* NPM access
+* `"foo"` (NPM modules)
 </div>
 <div>
+
+## The Joyride classpath
+
+* User: `~/.config/joyride/scripts`
+* Workspace:<br> `<ws-root>/.joyride/scripts`
 
 ## Commands
 
@@ -24,11 +30,6 @@
 ``` clojure
 (-> (vscode/window.showInputBox) (.then identity))
 ```
-
-## The Joyride classpath
-
-* User: `~/.config/joyride/scripts`
-* Workspace:<br> `<ws-root>/.joyride/scripts`
 </div>
 </div>
 </div>

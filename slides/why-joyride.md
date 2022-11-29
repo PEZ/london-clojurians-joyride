@@ -6,9 +6,11 @@
 ## VS Code is great!
 
 * 24 million MAU
-* Very configurable
+* 20% of Clojurians
 * 41,600 extensions
 * Nice, well documented, API
+* Wonderful Extension developers community
+* Very configurable
 <div class="secret">
 
 ## However

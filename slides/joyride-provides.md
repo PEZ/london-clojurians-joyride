@@ -14,6 +14,8 @@
     * Evaluating code
     * Evaluating the selection
     * Evaluating User and Workspace Scripts
+* User script support + activation
+* Workspace scripts support + activation
 </div>
 <div class="f-08">
 <div class="imageBox">

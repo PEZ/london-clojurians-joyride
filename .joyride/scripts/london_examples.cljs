@@ -8,8 +8,6 @@
 (comment
   ;; Zen Mode Status bar
   (.get (vscode/workspace.getConfiguration "zenMode") "hideStatusBar")
-  (-> (vscode/workspace.getConfiguration "zenMode")
-      (.update "hideStatusBar" false vscode/ConfigurationTarget.Workspace))
 
   ;; Toggle editor line numbers
   (set! (.-lineNumbers vscode/window.activeTextEditor.options)

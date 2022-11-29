@@ -1,4 +1,4 @@
-# Moar Joyride Examples
+# More Joyride Examples
 
 <div class="slide">
 <div class="fw fz-80">
@@ -8,7 +8,7 @@
          '[next-slide])
 
 (let [ws-root-uri (-> vscode/workspace.workspaceFolders first .-uri)
-      backup-uri (vscode/Uri.joinPath ws-root-uri "./etc/more-examples-original.md")
+      backup-uri (vscode/Uri.joinPath ws-root-uri "./etc/more-examples-backup.md")
       doc-uri (vscode/Uri.joinPath ws-root-uri "./slides/more-examples.md")]
   (-> (p/do (vscode/workspace.fs.copy backup-uri
                                       doc-uri
@@ -20,6 +20,21 @@
                  (def result result)
                  (vscode/window.showErrorMessage (.-message e))))))
 ```
+</div>
+<div>
+
+* Example: npm, parse-html, clojure.walk
+* Example: Webview
+* Activation scripts (init.el-ish)
+    * user_activate.cljs
+    * workspace_activate.cljs
+* Example: Showtime
+* Example: next_slide.cljs
+* Example: Clojuredocs
+* Example: Ignore current form.
+* Example: Reset prezo
+* Example: Typist
+* Example: Terminal
 </div>
 </div><!--slide-->
 <div class="footer">

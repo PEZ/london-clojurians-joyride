@@ -3,6 +3,7 @@
     "cSpell.allowCompoundWords": true,
     "zenMode.hideTabs": false,
     "zenMode.hideStatusBar": false,
+    "zenMode.centerLayout": false,
     "workbench.statusBar.visible": true,
     "window.zoomLevel": 3,
     "markdown.preview.fontSize": 24,
@@ -14,7 +15,6 @@
         "fooo",
         "foooo"
     ],
-    "zenMode.centerLayout": false,
     "gitlens.gitCommands.sortBy": "name",
     "markdown.preview.typographer": true,
     "markdown.styles": [
@@ -38,4 +38,5 @@
     },
     "editor.occurrencesHighlight": false,
     "markdown.preview.doubleClickToSwitchToEditor": true,
+    "zenMode.silentNotifications": false,
 }

@@ -9,7 +9,7 @@
 (require '[reagent.core :as r]
                  '[reagent.dom :as rdom])
 
-(def state (r/atom {:clicks 0}))
+(defonce state (r/atom {:clicks 0}))
 
 (defn my-component []
   (let [clicks (:clicks @state)]
@@ -19,7 +19,7 @@
           "Click me!"]]
      [:div {:style {:text-align :center}}
       [:img {:src "https://raw.githubusercontent.com/babashka/sci/61d92ad3f08f83568fb25301c80fbd591f02f96b/logo/logo.svg"
-             :style {:width "260px"
+             :style {:width "80vw"
                      :transform (str "rotate(" clicks "deg)")}}]
       [:h2 {:style {:font-family "Fira Sans"
                     :font-size "30pt"

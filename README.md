@@ -109,6 +109,11 @@ Embedding it here as well:
 
 https://user-images.githubusercontent.com/30010/204760540-d012b6ea-34ca-41f6-b45f-0c90f2abff27.mp4
 
+## License
+
+All content in this repository is free to use as you see fit. At your own risk.
+
 ## Happy Joyriding! 🚗💨
 
 Please join the `#joyride` channel on [Clojurians Slack](http://clojurians.net) to get help, provide feedback, and share your solutions. You can also reach us in the [Discussions section](https://github.com/BetterThanTomorrow/joyride/discussions) of the Joyride repository.
+

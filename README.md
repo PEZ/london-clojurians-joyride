@@ -5,6 +5,13 @@
 * Meetup: https://www.meetup.com/london-clojurians/events/286030325/
 * Joyride repo: https://github.com/BetterThanTomorrow/joyride
 
+## Examples included
+
+See the Workspace Scripts, [.joyride/scripts](.joyride/scripts), folder.
+
+You find the example with the pulsating status bar item is in this file:
+* [.joyride/scripts/london_examples.cljs](.joyride/scripts/london_examples.cljs)
+
 ## How to use the `next_slide.cljs` script
 
 To run this slideshow:
@@ -57,4 +64,11 @@ The important files here are:
 * [slides.edn](slides.edn), sets up a vector of Markdown files, the slide deck
 * [.vscode/settings.json](.vscode/settings.json), sets up zoom level, font sizes, and other ”presentation mode” things. (`zenMode.hideStatusBar` is set to `false` in this project, you might want to hide the status bar in Zen mode.)
 * [slides/style.css](slides/style.css), the styling used for this presentation
+
+Please let us know if you find use for this. Like in the **#joyride** channel over at [Clojurians Slack](http://clojurians.net).
+
+## The [Clojuredocs](https://clojuredocs.org/) example
+
+Instructions in the script itself:
+* [.joyride/scripts/clojuredocs.cljs](.joyride/scripts/clojuredocs.cljs)
 

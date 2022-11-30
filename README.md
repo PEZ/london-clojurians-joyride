@@ -2,9 +2,10 @@
 
 The meetup was about how to hack [Visual Studio Code](https://code.visualstudio.com/) like it was [Emacs](https://www.gnu.org/software/emacs/), using the VS Code Extension [Joyride](https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.joyride).
 
-![image](https://user-images.githubusercontent.com/30010/204566090-b87659b0-942f-4809-b101-7e827d8c56ba.png)
+[![](etc/London%20Clojurians%20Video%20Image.png)](https://www.youtube.com/watch?v=ObjIR08t3lg)
 
 * Meetup: https://www.meetup.com/london-clojurians/events/286030325/
+* Recording: https://www.youtube.com/watch?v=ObjIR08t3lg
 * Joyride repo: https://github.com/BetterThanTomorrow/joyride
 
 ## Examples included

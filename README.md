@@ -1,5 +1,7 @@
 # Joyride @ London Clojurians, Nov 29 2022
 
+The meetup was about how to hack [Visual Studio Code](https://code.visualstudio.com/) like it was [Emacs](https://www.gnu.org/software/emacs/), using the VS Code Extension [Joyride](https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.joyride).
+
 ![image](https://user-images.githubusercontent.com/30010/204566090-b87659b0-942f-4809-b101-7e827d8c56ba.png)
 
 * Meetup: https://www.meetup.com/london-clojurians/events/286030325/

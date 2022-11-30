@@ -76,18 +76,35 @@
   (simulate-typing "foo bar" :slow) 
   :rcf)
 
-
-
-
-
-
-
 ;; How about typing what's on the clipboard?
 
 (defn type-clipboard
   "Types the clipboard content at `speed`"
   [speed]
   (p/let [clipboard-text (vscode/env.clipboard.readText)]
-    (simulate-typing clipboard-text speed)))
+    (simulate-typing clipboard-text (keyword speed))))
+
+(comment
+  (type-clipboard :fast)
+  :rcf)
+
+;; To type the contents of the clipboard in a text editor,
+;; or an input prompt, you can define a keyboard shortcut:
+;;
+;;    {
+;;        "command": "joyride.runCode",
+;;        "args": "(typist/type-clipboard :fast)",
+;;        "key": "ctrl+alt+t f",
+;;    },
+;;
+;; NB: First you need to load this script. You can do that
+;; by using the command **Joyride: Run Workspace Script**
+;; Or by requiring this script from either:
+;; * `user_activate.cljs`
+;; * `workspace_activate.cljs`
+;; 
+;; There is also the extension *Paste Replace* that does
+;; this and some more useful things:
+;; * https://github.com/PEZ/paste-replaced
 
 "Typist loaded"

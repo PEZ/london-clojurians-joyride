@@ -12,7 +12,7 @@ To run this slideshow:
 0. In VS Code, Search for **Joy** in the Extensions pane, and install **Joyride**.
 1. Open this project
 1. Define keyboard shortcuts
-    ```json
+    ```jsonc
     { // Activate next-slide
         "key": "ctrl+alt+j n",
         "command": "joyride.runCode",

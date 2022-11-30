@@ -80,3 +80,31 @@ Please let us know if you find use for this. Like in the **#joyride** channel ov
 Instructions in the script itself:
 * [.joyride/scripts/clojuredocs.cljs](.joyride/scripts/clojuredocs.cljs)
 
+## How to use the Showtime (timer) script
+
+0. Assuming Joyride is installed.
+
+Copy [.joyride/scripts/showtime.cljs](.joyride/scripts/showtime.cljs) to your Joyride User Scripts folder
+
+To add the timer to the statusbar:
+1. **Joyride: Run User Script**
+2. Select `showtime.cljs`
+
+To start the timer: click it
+
+To stop the timer: click it
+
+To restart the timer: click it
+
+To remove the timer from the statusbar:
+0. Ensure the timer is stopped
+1. **Joyride: Run User Script**
+2. Select `showtime.cljs`
+
+## The Terminal Example
+
+There is a video on Youtube: [How to Control the VS Code Terminal with Joyride](https://www.youtube.com/watch?v=BqoIp1YuOic)
+
+## Happy Joyriding! 🚗💨
+
+Please join the `#joyride` channel on [Clojurians Slack](http://clojurians.net) to get help, provide feedback, and share your solutions. You can also reach us in the [Discussions section](https://github.com/BetterThanTomorrow/joyride/discussions) of the Joyride repository.

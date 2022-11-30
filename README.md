@@ -103,7 +103,11 @@ To remove the timer from the statusbar:
 
 ## The Terminal Example
 
-There is a video on Youtube: [How to Control the VS Code Terminal with Joyride](https://www.youtube.com/watch?v=BqoIp1YuOic)
+There is a video on Youtube: [How to Control the VS Code Terminal with Joyride](https://www.youtube.com/watch?v=BqoIp1YuOic) Please consider sharing it around!
+
+Embedding it here as well:
+
+https://user-images.githubusercontent.com/30010/204760540-d012b6ea-34ca-41f6-b45f-0c90f2abff27.mp4
 
 ## Happy Joyriding! 🚗💨
 

@@ -12,6 +12,12 @@ See the Workspace Scripts, [.joyride/scripts](.joyride/scripts), folder.
 You find the example with the pulsating status bar item is in this file:
 * [.joyride/scripts/london_examples.cljs](.joyride/scripts/london_examples.cljs)
 
+## The [SCI](https://github.com/babashka/sci) slides
+
+@borkdude still seems to prefer Keynote over VS Code. 😂
+
+* [joyride-sci.pdf](joyride-sci.pdf)
+
 ## How to use the `next_slide.cljs` script
 
 To run this slideshow:

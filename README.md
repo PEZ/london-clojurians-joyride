@@ -56,5 +56,5 @@ The important files here are:
 * [.joyride/scripts/next_slide.cljs](.joyride/scripts/next_slide.cljs), consider placing this in your user scripts folder (`<HOME>/.config/joyride/scripts/`)
 * [slides.edn](slides.edn), sets up a vector of Markdown files, the slide deck
 * [.vscode/settings.json](.vscode/settings.json), sets up zoom level, font sizes, and other ”presentation mode” things. (`zenMode.hideStatusBar` is set to `false` in this project, you might want to hide the status bar in Zen mode.)
-* Optional: [slides/style.css](slides/style.css), the styling used for this presentation
+* [slides/style.css](slides/style.css), the styling used for this presentation
 
